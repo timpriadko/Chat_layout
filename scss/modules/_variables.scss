@@ -1,0 +1,32 @@
+//Colors
+:root{
+	
+	--primary: #3498db;
+	--white: #fff;
+	--app-back: #f5f6f8;
+	--gray-100: #f6fafe;
+	--gray-200: #8ea1b4;
+	--gray-300: #2775a9;
+	--gray-400: #d6e3ec;
+	--gray-500: #ecf0f2;
+	--gray-600: #d4e1ea;
+	--gray-700: #c9d6df;
+	--dark: #16315c;
+	--blue: #3598db;
+	--green: #51dacf;
+
+//Intends
+	--side-indent: 15px;
+}
+
+@media (min-width: 576px) {
+	:root {
+		--side-indent: 53px;
+	}
+}
+
+body.night-mode {
+	--app-back: #1f273f;
+	--primary: #99c2de;
+	--dark: #99c2de;
+}

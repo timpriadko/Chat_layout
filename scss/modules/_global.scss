@@ -1,0 +1,37 @@
+.app-wrapper {
+	position: relative;
+	overflow: hidden;
+	min-height: 100vh;
+	@include d-flex($align-items: center, $justify-content:center);
+}
+
+.application {
+	position: relative;
+	max-height: 780px;
+	max-width: 960px;
+	overflow: hidden;
+	background-color: var(--app-back, #f5f6f8);
+}
+
+/*Avatar Styles*/
+.avatar {
+	overflow: hidden;
+	min-width: 40px;
+	min-height: 40px;
+	min-width: 40px;
+	border-radius: 50%;
+}
+
+.chat-body,
+.user-listing {
+	&::-webkit-scrollbar {
+		width: 4px;
+	}
+
+	&::-webkit-scrollbar-track {
+		background-color: var(--gray-500);
+	}
+	&::-webkit-scrollbar-thumb {
+		background-color: var(--primary);
+	}
+}
